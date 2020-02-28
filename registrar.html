@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/compiled-4.8.5.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Document</title>
+</head>
+
+<body class="system">
+    <div class="container">
+        <!-- Material form login -->
+        <div class="card-register col-sm-12 col-md-6 col-lg-5 mx-auto mt-5 ">
+            <!-- Material form register -->
+            <div class="card">
+
+                <h5 class="card-header info-color white-text text-center py-4">
+                    <strong>Registrate</strong>
+                </h5>
+
+                <!--Card content-->
+                <div class="card-body px-lg-5 pt-0">
+
+                    <!-- Form -->
+                    <form class="text-center" style="color: #757575;" action="#!">
+                        <div class="md-form">
+                            <input type="text" id="materialRegisterFormdni" class="form-control" maxlength="8" pattern="[0-9]{8}">
+                            <label for="materialRegisterFormdni">DNI</label>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="col">
+                                <!-- First name -->
+                                <div class="md-form">
+                                    <input type="text" id="materialRegisterFormFirstName" class="form-control">
+                                    <label for="materialRegisterFormFirstName">Nombres</label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <!-- Last name -->
+                                <div class="md-form">
+                                    <input type="text" id="materialRegisterFormLastName" class="form-control">
+                                    <label for="materialRegisterFormLastName">Apellidos</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- E-mail -->
+                        <div class="md-form mt-0">
+                            <input type="email" id="materialRegisterFormEmail" class="form-control">
+                            <label for="materialRegisterFormEmail">Correo</label>
+                        </div>
+
+                        <!-- Password -->
+                        <div class="md-form">
+                            <input type="password" id="materialRegisterFormPassword" class="form-control"
+                                aria-describedby="materialRegisterFormPasswordHelpBlock">
+                            <label for="materialRegisterFormPassword">Contraseña</label>
+                            <small id="materialRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+                                Al menos 8 caracteres y 1 dígito.
+                            </small>
+                        </div>
+                        <div class="md-form">
+                            <input type="password" id="materialRegisterFormConfirmPassword" class="form-control"
+                                aria-describedby="materialRegisterFormConfirmPasswordHelpBlock">
+                            <label for="materialRegisterFormConfirmPassword">Confirmar Contraseña</label>
+                            <small id="materialRegisterFormConfirmPasswordHelpBlock" class="form-text text-muted mb-4">
+                                Las constraseñas deben coincidir.
+                            </small>
+                        </div>
+
+                        <!-- Phone number -->
+
+
+
+                        <!-- Sign up button -->
+                        <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0"
+                            type="submit">Sign in</button>
+
+
+
+                        <hr>
+
+                        <!-- Terms of service -->
+                        <p class="register-termins"> Al hacer clic en
+                            <em>Registrarse</em>, acepta nuestros
+                            <a href="" target="_blank">términos de servicio.</a></p>
+
+                    </form>
+                    <!-- Form -->
+
+                </div>
+
+            </div>
+            <!-- Material form register -->
+        </div>
+
+        <!-- Material form login -->
+    </div>
+    <script src="js/compiled-4.8.5.min.js"></script>
+</body>
+
+</html>

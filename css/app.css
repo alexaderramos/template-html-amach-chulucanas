@@ -1,0 +1,51 @@
+
+body.system{
+  background: url(../img/patterns/swirl_pattern.png);
+}
+
+header, main, footer {
+    padding-left: 240px;
+  }
+  
+  @media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+  }
+
+.card-login{
+    width: auto
+}
+.card-login .card-body-login{
+    width: auto;
+}
+
+    
+ p.register-termins{
+    font-size: 13px !important;
+}
+.logo-wrapper.waves-light.waves-effect.waves-light {
+    height: 150px;
+}
+
+table.table-products>tbody>tr>td>span.badge{
+  padding:5px;
+}
+.product-description:hover{
+  cursor: pointer;
+}
+
+.fix-space{
+  padding-bottom: 50px;
+}
+/* div.form-select{
+  text-align: left !important;
+} */
+/* .fas.fa-bars {
+    color: #fff;
+} 
+
+.double-nav .breadcrumb-dn {
+    padding-left: 1rem;
+    color: #f7f7f7;
+} */
